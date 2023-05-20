@@ -1,0 +1,166 @@
+/* *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+   align-items: center;
+   justify-content: center;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#sec{
+    background-color: rgb(163, 242, 242);
+    width: 100%;
+    height: 100%;
+}
+
+#div1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   padding-bottom: 3rem;
+}
+
+#div2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15rem;
+}
+
+#left{
+    border-radius: 50%;
+    width: 3rem;
+    height: 3rem;
+    text-align: center;
+    border: 2px solid pink;
+}
+
+#playorpause{
+    border-radius: 50%;
+    width: 3rem;
+    height: 3rem;
+    text-align: center;
+    border: 2px solid pink;
+}
+
+#right{
+    border-radius: 50%;
+    width: 3rem;
+    height: 3rem;
+    text-align: center;
+    border: 2px solid pink;
+}
+
+#img{
+   width: 20rem;
+   height: 20rem;
+    border-radius: 50%;
+    border: 5px solid pink;
+}
+
+#songname{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 3rem;
+    font-size: 5rem;
+}
+
+#progress{
+   
+    width: 25rem;
+    height: 1rem;
+    background: pink;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    margin: 5rem 0rem;
+    
+}
+
+.songname{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 5rem;
+}
+
+.artist{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+}
+
+.album{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3rem;
+}
+
+ion-icon{
+    font-size: 1.2rem;
+} */
+
+body{
+    height: 100vh;
+    width: 98vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+main{
+    /* height: 700px;
+    width:500px; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    /* border: 2px solid; */
+}
+.btns{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.currentsongimg{
+    height: 100px;
+    width:100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.sngs{
+    width:100vw;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.songlist{
+    width:100vw;
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:1rem;
+}
+.songimg{
+    width:100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}

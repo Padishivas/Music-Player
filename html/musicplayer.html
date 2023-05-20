@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/musicplayer.css">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</head>
+<body>
+    <!-- <section id="sec">
+        <div id="div1"><img id="img" src="https://i.pinimg.com/736x/e0/67/96/e0679659a293bf347fdfa0cbf19ae600--mahesh-babu.jpg" alt="">     
+        </div>
+
+<h1 class="album">NANI</h1>
+<div id="div2">
+    <audio  controls autoplay id="song">
+        <source  src="C:\Users\saiba\OneDrive\Desktop\april javascript\music player\media\[iSongs.info] 01 - Nani Vayase.mp3" type="audio/mpeg" > 
+      </audio>
+
+<button id="left"><a href=""><ion-icon name="arrow-back-outline"></ion-icon></a></button>
+
+<button id="playorpause" class="playorpause" onclick="playorpause()">play</button>
+
+<button id="right"><a href=""><ion-icon name="arrow-forward-outline"></ion-icon></a></button>
+
+</div>
+
+<input  type="range" value="0" id="progress">
+
+
+<div class="songname"><h4><b>Nani Vayase</b></h4></div>
+<div class="artist"><p>Karthik, Blaaze,Sunitha Sarathy</p></div>
+</section> -->
+
+
+    
+    <main>
+        <div class="inpdiv">
+            <input onchange="data()" type="text" name="" id="userinp" class="userinp">
+        </div>
+        <div class="btns">
+            <button value="all" onclick="mainfunction(event)">All</button>
+            <button value="trending songs" onclick="mainfunction(event)">Trending songs</button>
+            <button value="old songs" onclick="mainfunction(event)">Old Songs</button>
+            <button value="album" onclick="mainfunction(event)">Album</button>
+            <button value="radio" onclick="mainfunction(event)">Radio</button>
+            <button value="podcasts" onclick="mainfunction(event)">Podcasts</button>
+            <button value="my music" onclick="mainfunction(event)">My Music</button>
+        </div>
+    </main>
+
+        <div class="sngs">
+            <div class="songlist"></div>
+            <div class="songimg">
+                <img class="currentsongimg" src="https://img.freepik.com/free-vector/musical-notes-pentagram-background-design_1017-31223.jpg?w=1380&t=st=1683713802~exp=1683714402~hmac=a230ee12c278d704670ea153275929ff10a2e4294f6a6955d60ea0052a73900f" alt="">
+            </div>
+        </div>
+
+        <div class="trend">
+            <audio class="audio" id="audiotag" controls autoplay></audio>
+        </div>
+    
+
+</body>
+<script src="../Js/musicplayer.js"></script>
+</html>
